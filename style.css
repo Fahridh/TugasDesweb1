@@ -90,7 +90,7 @@ body {
 
   .imgdesc {
     position: absolute;
-    margin-top: 670px;
+    margin-top: 685px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -107,5 +107,5 @@ body {
     background-color: #333;
     color: #fff;
     text-align: center;
-    padding: 40px 522px;
+    padding: 40px;
   }
