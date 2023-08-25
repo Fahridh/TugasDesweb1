@@ -1,0 +1,111 @@
+body {
+    background-image: url('pexels-stephan-seeber-1054201.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+  }
+
+  .navbar {
+    background-color: rgba(128, 128, 128, 0.5);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  .navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size:160%;
+  }
+  
+  .navbar a:hover {
+    background-color: rgba(0, 0, 0, 0.5);;
+    color: white;
+  }
+  
+  .navbar a.active {
+    background-color: gray ;
+    color: white;
+    
+  }
+
+  h1 {
+    text-align:center;
+    font-size:300%;
+    color: white;
+    margin: 2px;
+ 
+  }
+  p {
+    text-align:center;
+    font-size:160%;
+    color: white;
+  }
+
+  .tekspertama {
+    padding: 14px 16px;
+    position: absolute;
+    margin-top: 20px;
+    top: 100;
+    left: 3%;
+    right: 52%;
+    color: #ffffff;
+    background-color: rgba(51, 51, 51, 0.2);
+    border-radius:20px;
+    font-size:120%;
+    justify-content: center;
+  }
+  
+  .tekskedua {
+    padding: 14px 16px;
+    position: absolute;
+    margin-top: 20px;
+    top: 100;
+    left: 52%;
+    right: 3%;
+    color: #ffffff;
+    background-color: rgba(51, 51, 51, 0.2);
+    border-radius: 20px;
+    font-size:120%;
+  }
+
+  .gambar2 {
+    width: 600px;
+    height: auto;
+    margin-top: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+  }
+
+  .imgdesc {
+    position: absolute;
+    margin-top: 630px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size:180%;
+    color: white;
+  }
+
+  .footer {
+    /* position: absolute; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 1000px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 40px 522px;
+  }
