@@ -8,12 +8,12 @@ body {
 
 nav {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   /* align-items: center; */
   padding: 10px;
   background-color: rgba(128, 128, 128, 0.5);
   border-radius: 5px;
-  font-size:75%;
+  font-size:60%;
 }
   
 nav a {
@@ -63,6 +63,7 @@ nav a.active {
   padding: 14px 16px;
   margin: 20px;
   top: 100;
+  font-size:75%;
   }
   .image {
     text-align: center; 
@@ -70,7 +71,7 @@ nav a.active {
     position: relative;
   }
   .gambar2 {
-    max-width: 100%;
+    max-width: 50%;
     height: auto; 
     display: block; 
     margin: 0 auto;
@@ -98,7 +99,7 @@ nav a.active {
     color: #fff;
     text-align: center;
     padding: 40px;
-    font-size:75%;
+    font-size:60%;
   }
 
 @media screen and (min-width: 768px) {
