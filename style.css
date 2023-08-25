@@ -51,7 +51,8 @@ nav a.active {
 
 .description {
   display: flex;
-  justify-content: space-between; 
+  flex-direction: column;
+  align-items: center; 
 }
 
 .tekspertama, .tekskedua {
@@ -62,7 +63,10 @@ nav a.active {
   margin: 20px;
   top: 100;
   font-size:65%;
+  width: 100%;
+  border-radius: 20px;
   }
+
   .image {
     text-align: center; 
     margin-top: 20px;
@@ -101,8 +105,8 @@ nav a.active {
 
 @media screen and (min-width: 768px) {
   .description {
-    flex: 50%;
-    max-width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
   }
   .nav {
     justify-content: flex-start;
@@ -110,5 +114,6 @@ nav a.active {
   nav a {
     margin: 0 10px;;
   }
+  
 
 }
