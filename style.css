@@ -7,11 +7,11 @@ body {
   }
 
 nav {
-  position: sticky;
+  /* position: sticky; */
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
-  padding: 10px 20px;
+  padding: 10px;
   background-color: rgba(128, 128, 128, 0.5);
   border-radius: 5px;
 }
