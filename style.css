@@ -103,10 +103,17 @@ nav a.active {
     flex: 50%;
     max-width: 100%;
   }
-  .navbar {
+  .nav {
     justify-content: flex-start;
+    font-size:100%;
   }
   nav a {
     margin: 0 10px;;
+  }
+  .tekspertama, .tekskedua {
+    font-size: 50%;
+  }
+  .footer {
+    font-size: 40%
   }
   }
