@@ -6,16 +6,17 @@ body {
     margin: 0;
   }
 
-  .navbar {
-    background-color: rgba(128, 128, 128, 0.5);
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    padding: 10px 20px;
-    border-radius: 5px;
-  }
+nav {
+  position: sticky;
+  display: flex;
+  background-color: rgba(128, 128, 128, 0.5);
+  justify-content: center;
+  /* overflow: hidden;
+  padding: 10px 20px; */
+  border-radius: 5px;
+}
   
-  .navbar a {
+nav a {
     float: left;
     display: block;
     color: white;
@@ -24,18 +25,17 @@ body {
     text-decoration: none;
     margin: 0 20px;
     font-size:160%;
-  }
+}
   
-  .navbar a:hover {
-    background-color: rgba(0, 0, 0, 0.5);;
-    color: white;
-  }
+nav a:hover {
+  background-color: rgba(0, 0, 0, 0.5);;
+  color: white;
+}
   
-  .navbar a.active {
-    background-color: gray ;
-    color: white;
-    
-  }
+nav a.active {
+  background-color: gray ;
+  color: white;  
+}
 
   h1 {
     text-align:center;
@@ -50,62 +50,61 @@ body {
     color: white;
   }
 
-  .tekspertama {
-    padding: 14px 16px;
-    position: absolute;
-    margin-top: 20px;
-    top: 100;
-    left: 3%;
-    right: 52%;
-    color: #ffffff;
-    background-color: rgba(51, 51, 51, 0.2);
-    border-radius:20px;
-    font-size:120%;
-    justify-content: center;
-  }
-  
-  .tekskedua {
-    padding: 14px 16px;
-    position: absolute;
-    margin-top: 20px;
-    top: 100;
-    left: 52%;
-    right: 3%;
-    color: #ffffff;
-    background-color: rgba(51, 51, 51, 0.2);
-    border-radius: 20px;
-    font-size:120%;
-  }
+.description {
+  display: flex;
+  justify-content: space-between; 
+}
 
+.tekspertama, .tekskedua {
+  flex: 1; /* Allow paragraphs to grow and shrink within the container */
+  /* padding: 14px 16px; */
+  background-color: rgba(51, 51, 51, 0.2);
+  border-radius: 0px;
+  font-size: 80%;
+  padding: 14px 16px;
+  margin: 20px;
+  top: 100;
+  }
+  .image {
+    text-align: center; 
+    margin-top: 20px;
+    position: relative;
+  }
   .gambar2 {
-    width: 600px;
-    height: auto;
-    margin-top: 450px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-
+    max-width: 100%;
+    height: auto; 
+    display: block; 
+    margin: 0 auto;
   }
 
   .imgdesc {
+    text-align: center;
     position: absolute;
-    margin-top: 685px;
-    top: 50%;
+    bottom: -66;
     left: 50%;
-    transform: translate(-50%, -50%);
-    font-size:180%;
+    transform: translateX(-50%);
+    font-size: 180%;
     color: white;
   }
 
-  .footer {
+.footer {
     /* position: absolute; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-top: 1000px;
+    margin-top: 100px;
     background-color: #333;
     color: #fff;
     text-align: center;
     padding: 40px;
+  }
+
+@media screen and (min-width: 1024px) {
+  .description {
+    flex: 50%;
+    max-width: 100%;
+  }
+  nav a {
+    justify-content: space-between;
+  }
   }
