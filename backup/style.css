@@ -52,7 +52,7 @@ body {
 
   .tekspertama {
     padding: 14px 16px;
-    position: absolute;
+    display: flex;
     margin-top: 20px;
     top: 100;
     left: 3%;
@@ -66,7 +66,7 @@ body {
   
   .tekskedua {
     padding: 14px 16px;
-    position: absolute;
+    display: flex;
     margin-top: 20px;
     top: 100;
     left: 52%;
@@ -89,7 +89,7 @@ body {
   }
 
   .imgdesc {
-    position: absolute;
+    display: flex;
     margin-top: 685px;
     top: 50%;
     left: 50%;
